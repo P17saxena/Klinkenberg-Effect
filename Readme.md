@@ -2,7 +2,7 @@
 
 This repository contains a Python implementation using the **Newton-Raphson iterative method** to calculate the absolute (liquid) permeability of a core sample from gas permeability measurements, accounting for the **Klinkenberg Effect**.
 
----
+
 
 ## Overview
 
@@ -31,7 +31,4 @@ To solve this using the **Newton-Raphson method**, we also define its first deri
 
 $$f'(k_L) = p_m + 4.416 \cdot k_L^{-0.36}$$
 
-
-
----
 
