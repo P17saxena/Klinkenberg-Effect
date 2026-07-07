@@ -12,6 +12,7 @@ To determine the true absolute permeability ($k_L$), multiple measurements at va
 
 
 
+
 ## Governing Equations
 
 The relationship between gas permeability and absolute liquid permeability is expressed as:
@@ -29,6 +30,8 @@ $$f(k_L) = p_m \cdot k_L + 6.9 \cdot k_L^{0.64} - p_m \cdot k_g = 0$$
 To solve this using the **Newton-Raphson method**, we also define its first derivative with respect to $k_L$:
 
 $$f'(k_L) = p_m + 4.416 \cdot k_L^{-0.36}$$
+
+
 
 ---
 
